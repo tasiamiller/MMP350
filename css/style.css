@@ -1,4 +1,11 @@
-.container{
+.container,.site-footer,.site-header,.site-nav  li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: solid burlywood 2px;
+    border-radius: 25px;
+    height: 300px;
+    width: 250px;
 }
